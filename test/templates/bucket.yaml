@@ -1,0 +1,17 @@
+Parameters:
+  CustomTag:
+    Type: String
+  CustomTag2:
+    Type: String
+Resources:
+  TestBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      Tags:
+        - Key: Tag1
+          Value: !Ref CustomTag
+        - Key: Tag2
+          Value: !Ref CustomTag2
+Outputs:
+  Output1:
+    Value: Output1
