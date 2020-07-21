@@ -1,5 +1,5 @@
 {
-  "name": "@artit91/cf",
+  "name": "@viperhq/cf",
   "version": "1.0.0",
   "description": "Helper for CloudFormation",
   "main": "dist/index.js",
@@ -15,16 +15,16 @@
   },
   "author": "Attila Varga <attila@artit.io>",
   "license": "Apache-2.0",
-  "homepage": "https://github.com/artit91/cf",
+  "homepage": "https://github.com/viper-hq/cf",
   "bugs": {
-    "url": "https://github.com/artit91/cf/issues"
+    "url": "https://github.com/viper-hq/cf/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/artit91/cf.git"
+    "url": "https://github.com/viper-hq/cf.git"
   },
   "dependencies": {
-    "@artit91/exec": "^1.0.0"
+    "@viperhq/exec": "^1.0.1"
   },
   "devDependencies": {
     "@types/jest": "^25.1.3",

@@ -1,4 +1,4 @@
-import exec from "@artit91/exec";
+import exec from "@viperhq/exec";
 
 export interface DeployArgs {
   stackName: string;

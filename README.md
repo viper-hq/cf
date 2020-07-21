@@ -1,6 +1,6 @@
 # CloudFormation helper functions
 
-[![npm](https://img.shields.io/npm/v/@artit91/cf.svg)](https://www.npmjs.com/package/@artit91/cf)
+[![npm](https://img.shields.io/npm/v/@viperhq/cf.svg)](https://www.npmjs.com/package/@viperhq/cf)
 
 ### Running deploy
 
