@@ -1,0 +1,6 @@
+Resources:
+  StacksBucket:
+    Type: AWS::S3::Bucket
+Outputs:
+  StacksBucket:
+    Value: !Ref StacksBucket

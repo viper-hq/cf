@@ -5,7 +5,7 @@
 ### Running deploy
 
 Full parameter list:
-https://docs.aws.amazon.com/cli/latest/reference/cloudformation/deploy/index.html
+<https://awscli.amazonaws.com/v2/documentation/api/latest/reference/cloudformation/deploy/index.html>
 
 ```JavaScript
 deploy({
@@ -24,4 +24,18 @@ deploy({
 
 ```JavaScript
 const outputs = await output("test", "eu-west-2");
+```
+
+### Running package
+
+Full parameter list:
+<https://awscli.amazonaws.com/v2/documentation/api/latest/reference/cloudformation/package.html>
+
+```JavaScript
+pkg({
+  region: "eu-west-2",
+  templateFile: "index.yaml",
+  outputTemplateFile: "out.yaml",
+  s3Bucket: "bucket"
+})
 ```

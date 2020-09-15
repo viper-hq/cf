@@ -1,0 +1,5 @@
+Resources:
+  Buckets:
+    Type: AWS::CloudFormation::Stack
+    Properties:
+      TemplateURL: bucket.yaml
